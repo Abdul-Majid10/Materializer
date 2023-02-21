@@ -1,0 +1,32 @@
+{
+  "name": "materializer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdul-Majid10/Materializer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdul-Majid10/Materializer/issues"
+  },
+  "homepage": "https://github.com/Abdul-Majid10/Materializer#readme",
+  "engines": {
+    "node": "18.14.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
